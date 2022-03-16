@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2022-02-11T16:30:22Z"
+  labels:
+    run: mysample
+  name: mysample
+  namespace: default
+  resourceVersion: "70407"
+  uid: 5d9b4175-bf87-4aab-a188-84ef6b738a8d
+spec:
+  containers:
+  - image: wordpress
+    imagePullPolicy: Always
+    name: mysample
